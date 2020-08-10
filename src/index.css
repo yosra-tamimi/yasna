@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.header{
+  border: 1px solid black;
+  text-align: center;
+  color: darkslateblue;
+  margin-top: 20px;;
+
+}
+
+.main{
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+}
+
+
+.step-text{
+  margin:20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.add-button {
+  border-radius: 5px;
+  background-color: #19aabd;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.add-button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.add-button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.add-button:hover span {
+padding-right: 25px;
+}
+
+.add-button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+
+
+.run-button {
+  background-color: #8944b1; 
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.run-button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8944b1;
+}
+
+.run-button:hover {
+  background-color: #8944b1;
+  color: white;
+}
+
+
+.counter-header{
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  margin-top:20px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter-main{
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
